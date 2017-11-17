@@ -44,3 +44,6 @@
 	safecrlf = true
 [push]
 	default = matching
+[user]
+	name = Charles Tucker
+	email = charles_tucker@apple.com
