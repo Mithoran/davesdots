@@ -1,4 +1,5 @@
 [alias]
+	aliases = !git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /' | sort
 	ci = commit
 	co = checkout
 	di = diff --color-words
@@ -11,6 +12,7 @@
 	svnup     = !git stash && git svn rebase && git stash apply
 	svnupdate = !git stash && git svn rebase && git stash apply
 	st   = status
+	stu  = status -uno
 	stat = status
 	del    = rm
 	delete = rm
