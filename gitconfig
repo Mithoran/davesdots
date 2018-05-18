@@ -25,6 +25,7 @@
 	ls   = show
 	type = cat-file -t
 	dump = cat-file -p
+	subup = submodule update --init --recursive
 
 	untrack-ignored = !git-untracked-ignored
 	info = !git-info
