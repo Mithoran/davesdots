@@ -6,6 +6,8 @@ vbell on
 
 # default scrollback to 5000 lines
 defscrollback 5000
+# and enable scrollwheel
+termcapinfo xterm* ti@:te@
 
 # when in history mode, use incremental searching
 markkeys "^S=/:^R=?"
