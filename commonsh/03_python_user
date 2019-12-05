@@ -1,0 +1,3 @@
+#! /bin/sh
+concat_path "${HOME}/Library/Python/2.7/bin"
+concat_path "${HOME}/Library/Python/3.7/bin"
