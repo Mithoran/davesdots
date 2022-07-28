@@ -8,3 +8,7 @@ concat_path "/opt/local/libexec"
 export HOMEBREW_NO_ANALYTICS=1
 concat_path "${HOME}/homebrew/bin"
 concat_manpath "${HOME}/homebrew/share/man"
+
+# AppleInternal location
+concat_path "opt/brew/bin"
+concat_manpath "opt/brew/share/man"
