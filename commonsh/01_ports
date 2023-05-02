@@ -10,5 +10,7 @@ concat_path "${HOME}/homebrew/bin"
 concat_manpath "${HOME}/homebrew/share/man"
 
 # AppleInternal location
-concat_path "opt/brew/bin"
-concat_manpath "opt/brew/share/man"
+concat_path "/opt/brew/bin"
+concat_path "/opt/homebrew/bin"
+concat_manpath "/opt/brew/share/man"
+concat_manpath "/opt/homebrew/share/man"
