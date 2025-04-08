@@ -42,6 +42,8 @@
 	pager =
 	excludesfile = ~/.gitignore
 	safecrlf = true
+[diff]
+	algorithm=patience
 [push]
 	default = matching
 [user]
