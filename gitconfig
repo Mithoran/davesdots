@@ -42,6 +42,7 @@
 	pager =
 	excludesfile = ~/.gitignore
 	safecrlf = true
+	fsmonitor = true
 [diff]
 	algorithm=patience
 [push]
