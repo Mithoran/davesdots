@@ -13,6 +13,7 @@
 	svnupdate = !git stash && git svn rebase && git stash apply
 	st   = status
 	stu  = status -uno
+	stx  = status --ignored
 	stat = status
 	del    = rm
 	delete = rm
@@ -42,7 +43,7 @@
 	pager =
 	excludesfile = ~/.gitignore
 	safecrlf = true
-	fsmonitor = true
+	#fsmonitor = true
 [diff]
 	algorithm=patience
 [push]
@@ -55,9 +56,10 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
-[merge]
-	renamelimit = 32000
 [pull]
 	ff = only
 [init]
 	defaultBranch = main
+[feature]
+	manyFiles = true
+
